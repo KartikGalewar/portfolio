@@ -42,6 +42,7 @@ const Container = styled.div`
   padding: 50px 10%;
   display: flex;
   border-bottom: 1px solid #E8E8E8;
+  background-color: #fff;
   @media (max-width: 768px) {
     display: block;
   }
@@ -100,7 +101,7 @@ const AboutMe = styled.div`
     
     
     color: #3a3a3a;
-    font-family: 'ProximaNovaT';
+    font-family: 'Roboto Slab', serif;
     font-size: 65px;
     margin-bottom: 20px;
 

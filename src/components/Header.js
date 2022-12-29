@@ -34,7 +34,7 @@ const Nav = styled.nav`
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  background: #050801;
+  /* background: #050801; */
   /* background: rgba(29, 29, 31, 0.7); */
   border-bottom: 1px solid #e2e2e2;
 `;

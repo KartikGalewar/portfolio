@@ -62,12 +62,13 @@ const Container = styled.div`
     flex-direction: column; */
   background: antiquewhite;
   padding-top: 50px;
+  /* overflow: hidden; */
 `;
 
 const Title = styled.div`
   font-size: 65px;
   text-align: center;
-
+  font-family: 'Roboto Slab', serif;
   @media (max-width: 768px) {
     font-size: 40px;
   }
@@ -136,7 +137,7 @@ const Download = styled.div`
     z-index: 1000;
     width: 100%;
     left: 0;
-
+      font-family: 'Roboto Slab', serif;
      @media (max-width: 768px) {
       font-size: 20px;
      }
@@ -148,6 +149,7 @@ const Link = styled.a`
 img{
     display: inline-block;
     vertical-align: middle;
+    width: 100%;
 }
 `;
 

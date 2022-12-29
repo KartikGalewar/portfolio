@@ -36,6 +36,7 @@ const Wrapper = styled.section`
         font-size: 65px;
     text-align: center;
     margin-bottom: 50px;
+    font-family: 'Roboto Slab', serif;
 
     @media (max-width: 768px) {
       font-size: 40px;

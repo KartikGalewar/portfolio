@@ -1,12 +1,14 @@
 import React from "react";
 import styled from "styled-components";
-
+import ParticleBackground from "./ParticleBackground";
 const Home = () => {
   return (
-    <Container>
+    <Container id="home">
+       <ParticleBackground/>
+      
       <PimageWrap>
         <ImageWrap>
-          <Photo src="/images/photo.png"></Photo>
+          <Photo src="/images/profile4.png"></Photo>
         </ImageWrap>
       </PimageWrap>
 
@@ -36,6 +38,8 @@ const Home = () => {
         <span></span>
         Chat with me
       </Link>
+      
+     
 
     </Container>
   );
@@ -48,7 +52,7 @@ const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #050801;
+  /* background: #050801; */
 `;
 
 const Photo = styled.img`
@@ -65,9 +69,13 @@ const Name = styled.span`
   text-transform: none;
   font-weight: 400;
   color: #fff;
-  font-size: 48px;
+  font-size: 80px;
   margin-bottom: 48px;
-  font-family: 'opensans-bold';
+  /* font-family: 'opensans-bold'; */
+  font-family: 'Sacramento', cursive;
+  @media (max-width: 768px) {
+    font-size: 52px;
+  }
 `;
 
 const PimageWrap = styled.div`
@@ -107,11 +115,13 @@ const Who = styled.div`
   display: inline-flex;
   color: #fff;
   margin-bottom: 48px;
+  align-items: center;
 `;
 
 const Static = styled.div`
   font-size: 26px;
   font-weight: 400;
+  font-family: 'Nova Slim', cursive;
 `;
 
 const Dynamic = styled.ul`
@@ -120,6 +130,7 @@ const Dynamic = styled.ul`
   height: 40px;
   /* background: red; */
   overflow: hidden;
+  font-family: 'Nova Slim', cursive;
   li {
     list-style: none;
     color: #fc6d6d;
@@ -138,6 +149,7 @@ const Dynamic = styled.ul`
   }
   li span {
     position: relative;
+    font-family: 'Nova Slim', cursive;
   }
 
   li span::after {
@@ -145,11 +157,11 @@ const Dynamic = styled.ul`
     position: absolute;
     height: 100%;
     width: 100%;
-    background: #050801;
+    background:#000000;
     border-left: 2px solid #fc6d6d;
     left: 0;
     animation: typing 1.5s steps(14) infinite;
-    
+    font-family: 'Nova Slim', cursive;
   }
 
   @keyframes typing {
