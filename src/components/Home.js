@@ -8,7 +8,7 @@ const Home = () => {
       
       <PimageWrap>
         <ImageWrap>
-          <Photo src="/images/profile4.png"></Photo>
+          <Photo src="/images/119A8103.JPG"></Photo>
         </ImageWrap>
       </PimageWrap>
 
@@ -17,16 +17,16 @@ const Home = () => {
         <Static> I am </Static>
         <Dynamic>
           <li>
-            <span>Proud Indian</span>
+            <span>a Web Developer</span>
           </li>
           <li>
-            <span>Web Developer</span>
+            <span>a Web Developer</span>
           </li>
           <li>
-            <span>Proud Indian</span>
+            <span>a Web Developer</span>
           </li>
           <li>
-            <span>Web Developer</span>
+            <span>a Web Developer</span>
           </li>
         </Dynamic>
       </Who>

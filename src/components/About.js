@@ -7,7 +7,7 @@ const About = () => {
   return (
     <Container id="about">
       <PhotoContainer>
-        <Photo src="/images/aboutphoto.jpg" />
+        <Photo src="/images/profile4.png" />
 
         <SocialIcons>
           <SocialRid href="/">
