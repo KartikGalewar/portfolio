@@ -25,7 +25,7 @@ const About = () => {
       <TextContainer>
         <AboutMe> About Me. </AboutMe>
         <AboutDesc>
-            Hi I am Kartik Galewar,Web developer living in Hyderabad, India. 
+            Hi I am Kartik Galewar,Web developer living in Pune, India. 
             I am a Computer Science Engineer, currently working with awesome folks at LTI.
         </AboutDesc>
 
