@@ -12,9 +12,13 @@ const Skills = () => {
         <em>ReactJs</em>
 
         <Bg>
+          <span style={{ width: "85%" }}></span>
+        </Bg>
+        <em>NextJs</em>
+
+        <Bg>
           <span style={{ width: "80%" }}></span>
         </Bg>
-
         <em>Redux</em>
         <Bg>
           <span style={{ width: "75%" }}></span>
